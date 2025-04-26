@@ -706,4 +706,4 @@ class RSAApp:
                         # Update progress
                         processed_size += len(chunk)
                         progress = min(100, int(processed_size * 100 / file_size))
-                        self.root.after(
+                        self.root.after()
